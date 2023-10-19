@@ -1,14 +1,14 @@
-import React from 'react'
 import {motion} from 'framer-motion'
-import {fadeIn, textVariant} from '../../utils/motion'
+import {fadeIn} from '../../utils/motion'
 import { Tilt } from 'react-tilt';
+{/* @ts-ignore */}
 import {github} from '../../assets'
 
 interface IProjectCardProps {
     index: number,
     name: string,
     description: string,
-    tags: string;
+    tags: string[];
     image: any;
     source_Code_Link: string
 }
@@ -47,7 +47,7 @@ const ProjectCard = (props: IProjectCardProps) => {
                 </div>
                 <div className='mt-4 flex flex-wrap gap-2'>
                     {tags.map((tag:any, index:number) => (
-                        <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+                        <p key={index} className={`text-[14px] ${tag.color}`}>
                             #{tag.name}
                         </p>
                     ))}

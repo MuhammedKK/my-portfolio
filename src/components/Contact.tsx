@@ -65,7 +65,7 @@ const Contact = () => {
           message: "",
         })
       }).catch((err) => {
-        toast.error(`Something was wrong please try again`)
+        toast.error(`Something was wrong please try again ${err}`)
       })
     }
   }

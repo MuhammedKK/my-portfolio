@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import {VerticalTimeline, VerticalTimeElement} from 'react-vertical-timeline-component';
+import {VerticalTimeline} from 'react-vertical-timeline-component';
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { textVariant } from '../utils/motion'
@@ -11,7 +11,7 @@ const Experience = () => {
   return (
     <>
         <motion.div
-          variants={textVariant()}
+          variants={textVariant(0)}
         > 
           <p className={styles.sectionSubText}>Here you can know about me more</p>
           <h2 className={styles.sectionHeadText}>Experience.</h2>

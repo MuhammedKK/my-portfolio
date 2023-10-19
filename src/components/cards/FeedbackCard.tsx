@@ -1,5 +1,5 @@
 import {motion} from 'framer-motion'
-import {fadeIn, textVariant} from '../../utils/motion';
+import {fadeIn} from '../../utils/motion';
 
 const FeedbackCard = ({index, testimonial, name, designation, company, image}:any) => {
     return (

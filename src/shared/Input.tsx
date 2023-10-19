@@ -3,7 +3,7 @@ interface IInput {
     type: string;
     name: string;
     value: string;
-    onChange: () => void;
+    onChange: (e:any) => void | any;
     placeholder: string;
     inputText: string
 }
