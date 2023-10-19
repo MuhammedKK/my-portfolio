@@ -1,4 +1,4 @@
-// @ts-ignore
+{/* @ts-ignore */}
 import {
     mobile,
     backend,
@@ -24,7 +24,7 @@ import {
     jobit,
     tripguide,
     threejs,
-  } from "../assets";
+  } from '../assets';
   
   const navLinks = [
     {
