@@ -29,6 +29,17 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import informatique from "./company/informatique.jpeg"
+import TreetyLogo from "./company/TreetyLogo.png"
+import khamsat from "./company/khamsat.jpeg"
+import ipda3 from "./company/ipda3.png"
+import ipda3Tech from "./ipda3Tech.png"
+import Ozel from "./Ozel.png"
+import games from "./games.jpg"
+import medical from "./medical.jpg"
+import netflix2 from "./netflix2.jpg"
+import pubg from "./pubg.png"
+import ecommerce2 from "./ecommerce2.jpg"
 
 export {
   logo,
@@ -56,7 +67,18 @@ export {
   shopify,
   starbucks,
   tesla,
+  informatique,
+  TreetyLogo,
+  khamsat,
+  ipda3,
   carrent,
   jobit,
   tripguide,
+  ipda3Tech,
+  Ozel,
+  games,
+  medical,
+  netflix2,
+  pubg,
+  ecommerce2
 };

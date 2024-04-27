@@ -16,8 +16,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae inventore dolorum iure itaque laboriosam vitae ipsum. Quos dolore itaque debitis saepe eaque sed, culpa provident ut corporis voluptatibus officia quisquam?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quia pariatur voluptates cupiditate ut adipisci illo explicabo provident, et sint dolor minima deserunt recusandae, vero temporibus officiis a debitis. Dignissimos.
+        I believe in this quote very much "Success is not a destination , Success is a journey" . So I'll keep learning every day till my soul leave my body
+
+        Frontend Engineer with over 1 year of experience in creating engaging and responsive web applications. Proficient in HTML, CSS, and JavaScript, Bootstrab, MaterialUI, Tailwinds, React, with a passion for crafting seamless user experiences. Committed to staying updated on industry trends and leveraging strong problem-solving skills to deliver innovative solutions. Open to collaboration and eager to contribute to dynamic development teams.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service:any, index:number) => (
