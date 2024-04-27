@@ -1,5 +1,6 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 /* @ts-ignore */
-import {mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, mongodb, git, mongodb, figma, docker, meta, starbucks, tesla, shopify, carrent, jobit, tripguide, threejs} from "../assets"; 
+import {mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, mongodb, git, mongodb, figma, docker, threejs, informatique, TreetyLogo, khamsat, ipda3,ipda3Tech, games, medical, Ozel, pubg, ecommerce2, netflix2} from "../assets"; 
   
   
   const navLinks = [
@@ -93,11 +94,11 @@ import {mobile, backend, creator, web, javascript, typescript, html, css, reactj
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Frontend Engineer",
+      company_name: "Informatique",
+      icon: informatique,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2023 - present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -106,37 +107,37 @@ import {mobile, backend, creator, web, javascript, typescript, html, css, reactj
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Frontend Engineer",
+      company_name: "Khamsat Owned By Hasoob",
+      icon: khamsat,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Apr 2020 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Dealing with client to know their requirements",
+        "Attention to details to make sure that I can do their needs",
+        "Deliver the work in the appointed time.",
+        "Taken from them feedback of my job to know if them satisfied & solve their problems.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Frontend Instructor",
+      company_name: "Treety Academy",
+      icon: TreetyLogo,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2020 - Apr 2020",
+      points: [
+        "Receive the students with no background of the software development",
+        "Teach them the right roadmap of the field ",
+        "Give them tasks to know what the point I must focus with them to know how to improve it",
+        "Improve this points by making with them website to show them the right way of debugging and developing, Make a report of them skills after improvement and provides it to the manager.",
+      ],
+    },
+    {
+      title: "Frontend Engineer intern",
+      company_name: "ipda3 Tech",
+      icon: ipda3,
+      iconBg: "#E6DEDD",
+      date: "Aug 2019 - Nov 2019",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -175,37 +176,37 @@ import {mobile, backend, creator, web, javascript, typescript, html, css, reactj
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Ipda3 Tech Company",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
-          name: "react",
+          name: "Javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Bootstrap",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "HTML5",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: ipda3Tech,
+      source_code_link: "https://github.com/MuhammedKK/ipda3-tik",
     },
     {
-      name: "Job IT",
+      name: "Game Provider",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
         {
-          name: "react",
+          name: "CSS3",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Javascript",
           color: "green-text-gradient",
         },
         {
@@ -213,29 +214,113 @@ import {mobile, backend, creator, web, javascript, typescript, html, css, reactj
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: games,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Ozel Hospital",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
+          name: "Javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Github",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Bootstrap",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: Ozel,
+      source_code_link: "https://github.com/MuhammedKK/OZEL",
+    },
+    {
+      name: "Blood Bank",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "HTML5",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS3",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: medical,
+      source_code_link: "https://github.com/MuhammedKK/Blood_Bank_Official",
+    },
+    {
+      name: "Netflix Clone ",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "Reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: netflix2,
+      source_code_link: "https://github.com/MuhammedKK/Netflix-Mohamed-Clone",
+    },
+    {
+      name: "Pubg website",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "Javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS3",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: pubg,
       source_code_link: "https://github.com/",
+    },
+    {
+      name: "Ecommerce Platform",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "Stripe",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "React",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ecommerce2,
+      source_code_link: "https://github.com/MuhammedKK/React_ECommerce_App",
     },
   ];
   

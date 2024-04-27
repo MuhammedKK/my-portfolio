@@ -18,8 +18,7 @@ const Works = () => {
             variants={fadeIn("","", 0.1, 1)}
             className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi reprehenderit cum alias laudantium rerum soluta incidunt harum. Sed facilis dolore ullam praesentium consectetur veritatis illum. Fugit, rem. Est, consequuntur excepturi.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quod neque optio. Velit molestias, in doloribus atque, aut nobis vitae quisquam itaque omnis laborum ducimus blanditiis quos. Nobis, minus molestiae?
+            Explore a curated selection of impactful projects that showcase my expertise as a Frontend Engineer. From e-commerce platform transformations to real-time collaboration tools, each project represents a unique journey of innovation, problem-solving, and a commitment to delivering exceptional user experiences. Dive into the details of these endeavors to witness firsthand the fusion of cutting-edge technologies and creative solutions in the realm of frontend development
           </motion.p>
         </div>
         <div className="mt-20 flex flex-wrap gap-7">
